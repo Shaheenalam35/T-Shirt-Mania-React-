@@ -20,7 +20,7 @@ export const RingContext = createContext("ring");
 const Grandpa = () => {
   const [house, setHouse] = useState(1);
 
-  const ornament = "Kada Matir Ring";
+  const ornament = "Diamond with Zirconium Ring";
 
   const handleBuyAHouse = () => {
     const newHouseCount = house + 1;
